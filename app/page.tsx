@@ -24,27 +24,9 @@ export default function Home() {
             <p className="hero-lede">Videodars, taqdimot, test va tasvirli savollar — har bir mavzu bir joyda. O‘zingizga qulay vaqtda, tartibli o‘rganing.</p>
             <div className="hero-actions">
               <Link className="button button-dark" href="/fanlar">Fanlarni ko‘rish <ArrowIcon /></Link>
-              <Link className="text-link" href="#tizim">Platforma qanday ishlaydi <ArrowIcon /></Link>
+              <Link className="text-link" href="/kurslar">Kurslar katalogi <ArrowIcon /></Link>
             </div>
             <div className="hero-proof"><CheckIcon /> 4 ta fan <span /> SSG katalog <span /> 100% mavzuli</div>
-          </div>
-
-          <div className="hero-module" aria-label="Kurs modulining ko‘rinishi">
-            <div className="hero-module-top"><span>MEDSTUDY / 01</span><span className="module-live"><i /> Video dars</span></div>
-            <div className="module-screen">
-              <div className="screen-orbit screen-orbit-one" />
-              <div className="screen-orbit screen-orbit-two" />
-              <div className="screen-label">01 / 06</div>
-              <svg className="heart-figure" viewBox="0 0 250 250" fill="none" aria-hidden="true">
-                <path d="M127 211c-7-8-61-58-82-86C23 94 29 54 59 40c24-11 49-1 65 19 16-20 41-30 65-19 30 14 36 54 14 85-20 28-75 78-82 86Z" stroke="currentColor" strokeWidth="2" />
-                <path d="M123 57c-6 19-5 34 7 47 10 10 13 22 8 37M104 55c-3 18-1 29 10 43M151 61c-8 15-8 26-1 38 6 10 8 21 4 31M87 89c18 10 34 18 47 28 15 12 24 26 31 48M165 91c-12 8-23 14-34 25" stroke="currentColor" strokeOpacity=".7" strokeWidth="1.2" strokeLinecap="round" />
-                <path d="M124 43v22M124 193v18M72 70l13 13M176 70l-13 13" stroke="currentColor" strokeOpacity=".55" strokeWidth="1" strokeLinecap="round" />
-                <circle cx="124" cy="43" r="3" fill="currentColor" /><circle cx="72" cy="70" r="3" fill="currentColor" /><circle cx="176" cy="70" r="3" fill="currentColor" />
-              </svg>
-              <div className="screen-caption"><span>ANATOMIYA</span><strong>Yurak anatomiyasi</strong><small>Struktura · funksiya · klinik bog‘liqlik</small></div>
-              <div className="screen-play"><PlayIcon /></div>
-            </div>
-            <div className="hero-module-bottom"><span>6 ta dars</span><span>48 daqiqa</span><span>01 / 04 fan</span></div>
           </div>
         </section>
 

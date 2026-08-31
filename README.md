@@ -7,6 +7,7 @@ Minimalist, static medical learning platform built with Next.js App Router.
 - `/` — platform landing page
 - `/fanlar/` — subject catalog
 - `/fanlar/[slug]/` — subject and course list
+- `/kurslar/` — course catalog
 - `/kurslar/[slug]/` — serial course player
 
 ## Run locally
